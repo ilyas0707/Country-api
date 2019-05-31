@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+</head>
+<body>
+
+  <form class="country-form">
+    <input id="country-name" type="text">
+    <button id="show">Show information</button>
+    <button id="showall">Show all</button>
+  </form>
+
+  <table border="1" width=80% style="margin-top: 2rem">
+    <tr>
+     <th>Code</th>
+     <th>Flag</th>
+     <th>Name</th>
+     <th>Capital</th>
+     <th>Population</th>
+    </tr>
+    <tr class="table">
+      <td id="alpha2Code" style="text-align: center"></td>
+      <td id="flag" style="width:150px"></td>
+      <td id="name" style="text-align: center"></td>
+      <td id="capital" style="text-align: center"></td>
+      <td id="population" style="text-align: center"></td>
+    </tr>
+   </table>
+</body>
+</html>
